@@ -2,7 +2,7 @@ import './App.css';
 import * as React from 'react';
 import ReactDOM from 'react-dom';
 import * as MUI from '@mui/material'
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Routes, HashRouter} from 'react-router-dom'
 import Signup from './components/Signup';
 import Login from './components/Login'
 import Home from './components/Home'
