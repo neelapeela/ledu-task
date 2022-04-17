@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ledu-task/static/css/main.81fc5584.css",
+    "main.js": "/ledu-task/static/js/main.15d9a8eb.js",
+    "static/js/787.28c686e6.chunk.js": "/ledu-task/static/js/787.28c686e6.chunk.js",
+    "static/media/campusbuild.png": "/ledu-task/static/media/campusbuild.a209dbe09e3a74b95ca8.png",
+    "index.html": "/ledu-task/index.html",
+    "main.81fc5584.css.map": "/ledu-task/static/css/main.81fc5584.css.map",
+    "main.15d9a8eb.js.map": "/ledu-task/static/js/main.15d9a8eb.js.map",
+    "787.28c686e6.chunk.js.map": "/ledu-task/static/js/787.28c686e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81fc5584.css",
+    "static/js/main.15d9a8eb.js"
+  ]
+}
