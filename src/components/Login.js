@@ -37,7 +37,7 @@ const Login = () => {
         <label>Password</label>
         <input type='password' placeholder=''value={password} onChange={(e)=> setPassword(e.target.value)}/>
         <MUI.Button onClick={handleSubmit} variant='contained' size='large'>Login</MUI.Button>
-        <Link to='/ledu-task'>New user? Login</Link>
+        <Link to='/ledu-task'>New user? Signup</Link>
         </form>
         </>
     )
