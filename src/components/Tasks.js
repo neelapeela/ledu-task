@@ -21,6 +21,7 @@ const Tasks = () => {
         <span className='Tasks'>
             <div className='header'>
                 <h1>My Tasks</h1>
+                <FormDialog setTasks={setTasks} oldTasks={tasks}/>
                 <div className='addbutton'><MUI.Fab onClick={addTask} color="primary" backgroundColor='red' aria-label="add">
                     <AddIcon/>
                 </MUI.Fab></div>
