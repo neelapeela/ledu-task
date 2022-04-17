@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ledu-task/static/css/main.81fc5584.css",
-    "main.js": "/ledu-task/static/js/main.da29b8f1.js",
+    "main.css": "/ledu-task/static/css/main.7be07417.css",
+    "main.js": "/ledu-task/static/js/main.f1bab6f5.js",
     "static/js/787.28c686e6.chunk.js": "/ledu-task/static/js/787.28c686e6.chunk.js",
     "static/media/campusbuild.png": "/ledu-task/static/media/campusbuild.a209dbe09e3a74b95ca8.png",
     "index.html": "/ledu-task/index.html",
-    "main.81fc5584.css.map": "/ledu-task/static/css/main.81fc5584.css.map",
-    "main.da29b8f1.js.map": "/ledu-task/static/js/main.da29b8f1.js.map",
+    "main.7be07417.css.map": "/ledu-task/static/css/main.7be07417.css.map",
+    "main.f1bab6f5.js.map": "/ledu-task/static/js/main.f1bab6f5.js.map",
     "787.28c686e6.chunk.js.map": "/ledu-task/static/js/787.28c686e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81fc5584.css",
-    "static/js/main.da29b8f1.js"
+    "static/css/main.7be07417.css",
+    "static/js/main.f1bab6f5.js"
   ]
 }
