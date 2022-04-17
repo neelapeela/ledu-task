@@ -24,7 +24,7 @@ const Home = () => {
             <div className='right-area'>
                 <div className='right-area-tab'>
                     <h1 className='user'>Hey, {JSON.parse(localStorage.getItem("loggeduser")).username}!</h1>
-                    <Link to='/'>Logout</Link>
+                    <Link to='/ledu-task'>Logout</Link>
                 </div>
                 <img className='randomphoto' src={profilePhoto}/>
             </div>
