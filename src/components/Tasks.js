@@ -9,9 +9,10 @@ import Task from './Task';
 // complete task display. Maintains all tasks.
 const Tasks = () => {
     const [tasks, setTasks] = useState([])
+    const [render, setRender] = useState(false)
 
     const addTask = () => {
-        render (<FormDialog setTasks={setTasks} oldTasks={tasks}/>)
+        setRender(true)
     }
     
     localStorage.setItem('tasks', JSON.stringify(tasks))
@@ -21,11 +22,11 @@ const Tasks = () => {
         <span className='Tasks'>
             <div className='header'>
                 <h1>My Tasks</h1>
-                <FormDialog setTasks={setTasks} oldTasks={tasks}/>
                 <div className='addbutton'><MUI.Fab onClick={addTask} color="primary" backgroundColor='red' aria-label="add">
                     <AddIcon/>
                 </MUI.Fab></div>
             </div>
+            {render ? <FormDialog setTasks={setTasks} oldTasks={tasks} render = {setRender}/> : null}
             <Task tasks={tasks} setTasks={setTasks} oldTasks={tasks}/>
         </span>
         </>

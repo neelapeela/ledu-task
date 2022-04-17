@@ -1,7 +1,7 @@
 {
   "name": "ledu-task",
   "version": "0.1.0",
-  "homepage": "https://neelapeela.github.io/ledu-task",
+  "homepage": "https://neelapeela.github.io/ledu-task/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",

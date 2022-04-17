@@ -8,7 +8,7 @@ import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
 
 //add tasks dialog box
-export default function FormDialog({isOpen, setTasks, oldTasks}) {
+export default function FormDialog({isOpen, setTasks, oldTasks, render}) {
   const [open, setOpen] = React.useState(true);
 
   const [name, setName] = React.useState('')
@@ -16,7 +16,8 @@ export default function FormDialog({isOpen, setTasks, oldTasks}) {
   const [id, setId] = React.useState(oldTasks.length)
 
   const handleClose = () => {
-    setOpen(false);
+    setOpen(false)
+    render(false)
   };
 
   const addTask = () => {
@@ -24,6 +25,7 @@ export default function FormDialog({isOpen, setTasks, oldTasks}) {
     setTasks([...oldTasks, task])
     setOpen(false)
     setId(parseInt(id)+1)
+    render(false)
   };
 
   return (

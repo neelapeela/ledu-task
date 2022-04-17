@@ -190,7 +190,7 @@ form Button{
   color: #15225e;
   text-align: left;
   display: flex;
-  height: fit-content;
+  height: min-content;
   flex-direction: column;
   border: solid;
   border-radius: 20px;
@@ -219,7 +219,6 @@ form Button{
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .Weather .MuiPaper-root h2{
