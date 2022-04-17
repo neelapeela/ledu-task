@@ -11,7 +11,7 @@ const Tasks = () => {
     const [tasks, setTasks] = useState([])
 
     const addTask = () => {
-        render (<FormDialog setTasks={setTasks} oldTasks={tasks}/>)
+        return (<FormDialog setTasks={setTasks} oldTasks={tasks}/>)
     }
     
     localStorage.setItem('tasks', JSON.stringify(tasks))
