@@ -9,6 +9,8 @@ export default function Day({dt, temp, min, max, icon, wind, humidity}) {
       sx={{
         display: 'flex',
         flexWrap: 'wrap',
+        flexGrow: '1',
+        flexShrink: '1',
         '& > :not(style)': {
           m: 1,
           width: 202,
