@@ -1,4 +1,8 @@
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #15225e;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +15,250 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+a:link{
+  color: aliceblue;
+}
+
+a:visited {
+  color: aliceblue;
+}
+
+.bgimg{
+  position: absolute;
+  z-index: -10;
+  opacity: 0.05;
+  left:0;
+  right:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+form{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 90vh;
+}
+
+form label{
+  padding: 10px;
+}
+
+form input{
+  font-size: large;
+  color: white;
+  padding: 10px;
+  border: solid;
+  width: 300px;
+  height: 50px;
+  border-width: 2px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+form input[type=text]:focus {
+  outline: none;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+form Button{
+  background-color: white !important;
+  color: #15225e !important;
+  font-weight: bolder !important;
+  height: 50px;
+  width: 150px;
+  margin: 30px !important;
+  border-radius: 5px;
+}
+
+
+.home{
+  height: 100%;
+  width: 100%;
+}
+
+.navbar{
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #15225e;
+  height: 15vh;
+  z-index: 2;
+  box-shadow: inset;
+}
+
+.navbar img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar .right-area{
+  display: flex;
+  margin-left: auto;
+}
+
+.navbar .randomphoto{
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 50%; 
+  height: 10vh;
+  width: 10vh;
+}
+.navbar .user{
+  font-size: 3vh;
+  padding-right: 2vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.homebody{
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: white !important;
+}
+
+.Tasks{
+  color: #15225e;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  border: solid;
+  border-radius: 20px;
+  border-color: #15225e;
+  height: fit-content;
+  width: 30%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.Tasks h1{
+  padding-left: 10px;
+}
+
+.Tasks .header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Tasks .header .MuiFab-primary{
+  background-color: #15225e !important;
+}
+
+.MuiAccordion-root{
+  margin: 5px;
+}
+
+.MuiAccordionSummary-root {
+  color: #15225e;
+}
+
+.MuiAccordionDetails-root{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.MuiToggleButton-standard{
+  margin: 10px!important;
+  background-color: #15225e23 !important;
+  height: 5vh;
+  width: 5vh;
+}
+
+.MuiTypography-h6{
+  align-self: center;
+}
+
+.Mui-selected{
+  background-color: aquamarine !important;
+}
+
+.Weather{
+  color: #15225e;
+  text-align: left;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border: solid;
+  border-radius: 20px;
+  border-color: #15225e;
+  width: 66%;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+.Weather h2{
+  padding: 0;
+  margin-top: 0;
+}
+
+.Weather h1{
+  margin-bottom: 0;
+}
+
+.Weather .MuiPaper-root{
+  padding-top: 10px;
+  background-color: #15225e;
+  border-radius: 10% !important;
+  box-shadow: 0px 0px 5px #15225e !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.Weather .MuiPaper-root h2{
+  padding: 0;
+  color: #ffffff;
+  margin: 0;
+}
+.Weather .MuiPaper-root h3{
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+}
+.Weather .MuiPaper-root p{
+  color: #ffffff;
+  font-size: small;
+  padding: 0;
+  margin: 0;
+
+}
+
+.Weather .MuiPaper-root img{
+  height: 10vh;
+}
+
+.weatherDisplay{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
